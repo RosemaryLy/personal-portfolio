@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'CoffeeAndLaundry.png',
+    img: 'project.png',
     title: 'Coffee and Laundry',
     info: 'A simple information landing page for a Laundromat built with HTML, CSS and Boostrap',
     info2: '',
