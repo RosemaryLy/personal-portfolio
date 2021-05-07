@@ -14,7 +14,7 @@ const ProjectImg = ({ filename, alt }) => (
               name
               childImageSharp {
                 fluid(maxWidth: 1366) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
                 }
               }
             }

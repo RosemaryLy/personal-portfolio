@@ -32,7 +32,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'CoffeeAndLaundry.png',
     title: 'Coffee and Laundry',
     info: 'A simple information landing page for a Laundromat built with HTML, CSS and Boostrap',
     info2: '',
@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'AdventCalendar.gif',
+    img: 'AdventCalendar.png',
     title: 'React Advent Calendar',
     info: 'A fun and simple advent calendar made with HTML, CSS, React and styled-components',
     info2: '',
