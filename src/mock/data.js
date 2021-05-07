@@ -25,7 +25,7 @@ export const aboutData = {
     "Have a design in mind? I can help turn that design into code for you! Or maybe you're looking for a re-design of your site or even starting from scratch? I can help you with that too!",
   paragraphFour:
     'My toolkit: HTML, CSS, JS, React, Material UI, Boostrap, Shopify, WordPress, SquareSpace, GraphQL, MYSQL, Apollo ',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://github.com/RosemaryLy/Resume/blob/main/RosemaryLy-Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,8 +34,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'CoffeeAndLaundry.png',
     title: 'Coffee and Laundry',
-    info: 'A simple information landing page for a Laundromat built with HTML, CSS and Boostrap',
-    info2: '',
+    info: 'A simple information landing page for a Laundromat ',
+    info2: 'Made with HTML, CSS and Boostrap',
     url: 'https://rosemaryly.github.io/CoffeeAndLaundry/',
     repo: 'https://github.com/RosemaryLy/CoffeeAndLaundry', // if no repo, the button will not show up
   },
@@ -43,19 +43,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'AdventCalendar.png',
     title: 'React Advent Calendar',
-    info: 'A fun and simple advent calendar made with HTML, CSS, React and styled-components',
-    info2: '',
+    info: 'A fun and simple advent calendar!',
+    info2: 'Built with HTML, CSS, React and styled-components',
     url: 'https://rosemaryly.github.io/AdventCalendar/',
     repo: 'https://github.com/RosemaryLy/AdventCalendar', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: "Matilda's Cupcke Emporium",
+    info: 'A fun and colourful website for a cupcake store.',
+    info2: 'Built with Gatsby and Boostrap',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/RosemaryLy/MatildasCupcakes', // if no repo, the button will not show up
   },
 ];
 
