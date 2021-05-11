@@ -32,6 +32,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'JohnPianoSchool.png',
+    title: "John's Piano School",
+    info: 'A custom landing page with video background for a pianio teacher.',
+    info2: 'Built with HTML, CSS and Javascript',
+    url: '',
+    repo: 'https://github.com/RosemaryLy/PianoLandingPage', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'CoffeeAndLaundry.png',
     title: 'Coffee and Laundry',
     info: 'A simple information landing page for a Laundromat ',
