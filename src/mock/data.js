@@ -34,9 +34,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'JohnPianoSchool.png',
     title: "John's Piano School",
-    info: 'A custom landing page with video background for a pianio teacher.',
+    info: 'A custom landing page with video background for a piano teacher.',
     info2: 'Built with HTML, CSS and Javascript',
-    url: '',
+    url: 'https://rosemaryly.github.io/PianoLandingPage/',
     repo: 'https://github.com/RosemaryLy/PianoLandingPage', // if no repo, the button will not show up
   },
   {
