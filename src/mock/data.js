@@ -50,21 +50,21 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'MatildaCupcakes.png',
+    title: "Matilda's Cupcke Emporium",
+    info: 'A fun and colourful website for a cupcake store.',
+    info2: 'Built with Gatsby and Boostrap',
+    url: 'https://rosemaryly.github.io/MatildasCupcakes/',
+    repo: 'https://github.com/RosemaryLy/MatildasCupcakes', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'AdventCalendar.png',
     title: 'React Advent Calendar',
     info: 'A fun and simple advent calendar!',
     info2: 'Built with HTML, CSS, React and styled-components',
     url: 'https://rosemaryly.github.io/AdventCalendar/',
     repo: 'https://github.com/RosemaryLy/AdventCalendar', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: "Matilda's Cupcke Emporium",
-    info: 'A fun and colourful website for a cupcake store.',
-    info2: 'Built with Gatsby and Boostrap',
-    url: '',
-    repo: 'https://github.com/RosemaryLy/MatildasCupcakes', // if no repo, the button will not show up
   },
 ];
 
