@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree:
     "Have a design in mind? I can help turn that design into code for you! Or maybe you're looking for a re-design of your site or even starting from scratch? I can help you with that too!",
   paragraphFour:
-    'My toolkit: HTML, CSS, JS, React, Material UI, Boostrap, Shopify, WordPress, SquareSpace, GraphQL, MYSQL, Apollo ',
+    'My toolkit: HTML, CSS, JS, React, Material UI, Boostrap, Shopify, WordPress, SquareSpace, ',
   resume: 'https://github.com/RosemaryLy/Resume/blob/main/RosemaryLy-Resume.pdf', // if no resume, the button will not show up
 };
 
