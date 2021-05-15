@@ -41,6 +41,25 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'SquareBreath.png',
+    title: 'Square Breathing App',
+    info:
+      'Square breathing is a breathing technique used to relieve stress. This app is a visual tool to help guide a user through the technique',
+    info2: 'Made with HTML, CSS and JS',
+    url: 'https://rosemaryly.github.io/sqaurebreath/',
+    repo: 'https://github.com/RosemaryLy/sqaurebreath', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'AdventCalendar.png',
+    title: 'React Advent Calendar',
+    info: 'A fun and simple advent calendar!',
+    info2: 'Built with HTML, CSS, React and styled-components',
+    url: 'https://rosemaryly.github.io/AdventCalendar/',
+    repo: 'https://github.com/RosemaryLy/AdventCalendar', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'CoffeeAndLaundry.png',
     title: 'Coffee and Laundry',
     info: 'A simple information landing page for a Laundromat ',
@@ -56,15 +75,6 @@ export const projectsData = [
     info2: 'Built with Gatsby and Boostrap',
     url: 'https://rosemaryly.github.io/MatildasCupcakes/',
     repo: 'https://github.com/RosemaryLy/MatildasCupcakes', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'AdventCalendar.png',
-    title: 'React Advent Calendar',
-    info: 'A fun and simple advent calendar!',
-    info2: 'Built with HTML, CSS, React and styled-components',
-    url: 'https://rosemaryly.github.io/AdventCalendar/',
-    repo: 'https://github.com/RosemaryLy/AdventCalendar', // if no repo, the button will not show up
   },
 ];
 
