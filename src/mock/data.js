@@ -60,7 +60,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'CoffeeAndLaundry.png',
+    img: 'CoffeeNLaundry.png',
     title: 'Coffee and Laundry',
     info: 'A simple information landing page for a Laundromat ',
     info2: 'Made with HTML, CSS and Boostrap',
