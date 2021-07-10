@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree:
     "Have a design in mind? I can help turn that design into code for you! Or maybe you're looking for a re-design of your site or even starting from scratch? I can help you with that too!",
   paragraphFour:
-    'My toolkit: HTML, CSS, JS, React, Material UI, Boostrap, Shopify, WordPress, SquareSpace, ',
+    'My toolkit: HTML, CSS, JS, React, Material UI, Boostrap, Shopify, WordPress, SquareSpace ',
   resume: './RosemaryLy-Resume.pdf', // if no resume, the button will not show up
 };
 
@@ -48,6 +48,16 @@ export const projectsData = [
     info2: 'Made with HTML, CSS and JS',
     url: 'https://rosemaryly.github.io/sqaurebreath/',
     repo: 'https://github.com/RosemaryLy/sqaurebreath', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cryptotracker.png',
+    title: 'Simple Cryptocurrency Tracker',
+    info:
+      "A cryptocurrency tracker that uses the coinGecko API to fetch data about cryptocurrencies and displays them in a simple list. Tailwind CSS was used for the styling of the application and local storage was used for storing a user's list",
+    info2: 'Made with React, Tailwind CSS, CoinGecko API',
+    url: 'https://rosemaryly.github.io/simple-crypto-tracker/',
+    repo: 'https://github.com/RosemaryLy/simple-crypto-tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
